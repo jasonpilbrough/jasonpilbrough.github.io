@@ -4714,37 +4714,6 @@ a.badge:hover, a.badge:focus {
 }
 
 
-/* my custom badges */
-
-.badge-custom1 {
-  color: #fff;
-  background-color: #4990AA;
-}
-
-.badge-custom2 {
-  color: #fff;
-  background-color: #987284;
-}
-
-.badge-custom3 {
-  color: #fff;
-  background-color: #D0D6B5;
-}
-
-.badge-custom4 {
-  color: #fff;
-  background-color: #F9B5AC;
-}
-
-.badge-custom5 {
-  color: #fff;
-  background-color: #EE7674;
-}
-
-.badge-custom6 {
-  color: #fff;
-  background-color: #B09E99;
-}
 
 
 
@@ -9777,10 +9746,5 @@ header.masthead h1 {
   opacity: 1;
 }
 
-/* additional classes */
 
-/* required because of some bug with setting icons white */
-.my-text-white {
-  color: #ffffff !important;
-}
 

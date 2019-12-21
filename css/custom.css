@@ -1,0 +1,164 @@
+/* additional classes */
+
+/* required because of some bug with setting icons white */
+.my-text-white {
+  color: #ffffff !important;
+}
+
+
+header.masthead-project {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 68, 0.8) 100%), url("../img/bg-masthead.jpg");*/
+  background: linear-gradient(to bottom, rgba(66, 77, 92, 0.5) 0%, rgba(66, 77, 92, 0.5) 100%), url("../img/envirologger_project/envirologger_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead-project h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead-project {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.masthead-project p {
+    font-size: 1.15rem;
+  }
+  header.masthead-project h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead-project h1 {
+    font-size: 3.5rem;
+  }
+}
+
+
+.bg-off-white{
+ 	background-color: #FAF8F5
+}
+
+.page-section-first {
+	padding: 8rem 0rem 10rem 0rem;
+}
+
+.page-section-slim {
+	padding: 3rem 0rem 4rem 0rem;
+}
+
+hr.divider-left {
+  border-width: 0.1rem;
+  border-color: #4990aa;
+  margin-left:0
+}
+
+
+/* my custom badges */
+
+
+.badge-home1{
+	color: #fff;
+  	background-color: #E84C54; /* RED */
+}
+
+.badge-home2{
+	color: #fff;
+  	background-color: #49A876; /* GREEN */
+}
+
+.badge-home3{
+	color: #fff;
+  	background-color: #3489B0; /* BLUE */
+}
+
+.badge-home4{
+	color: #fff;
+  	background-color: #FAC05E; /* YELLOW */
+}
+
+.badge-home5{
+	color: #fff;
+  	background-color: #F79D84; /* PEACH */
+}
+
+
+
+.badge-custom1 {
+  color: #fff;
+  background-color: #4990AA;
+}
+
+.badge-custom2 {
+  color: #fff;
+  background-color: #987284;
+}
+
+.badge-custom3 {
+  color: #fff;
+  background-color: #D0D6B5;
+}
+
+.badge-custom4 {
+  color: #fff;
+  background-color: #F9B5AC;
+}
+
+.badge-custom5 {
+  color: #fff;
+  background-color: #EE7674;
+}
+
+.badge-custom6 {
+  color: #fff;
+  background-color: #B09E99;
+}
+
+.badge-custom7 {
+  color: #fff;
+  background-color: #2C5784;
+}
+
+.badge-custom8 {
+  color: #fff;
+  background-color: #F6AE2D;
+}
+
+.badge-custom9 {
+  color: #fff;
+  background-color: #32936F;
+}
+
+.badge-custom10 {
+  color: #fff;
+  background-color: #26A96C;
+}
+
+
+
+.badge-custom11 { /* Illuminating emerald */
+  color: #fff;
+  background-color: #32936F;
+}
+
+.badge-custom12 { /* Green (crayola) */
+  color: #fff;
+  background-color: #26A96C;
+}
+
+.badge-custom13 { /* Slimmy green */
+  color: #fff;
+  background-color: #249E13;
+}
+
+
+
+
