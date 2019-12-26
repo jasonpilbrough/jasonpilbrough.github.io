@@ -1,10 +1,21 @@
 /* additional classes */
 
+
+
+
 /* required because of some bug with setting icons white */
 .my-text-white {
   color: #ffffff !important;
 }
 
+.my-text-grey {
+  color: #606060 !important;
+}
+
+.my-text-primary {
+  color: #4990AA !important;
+}
+    
 
 header.masthead-project {
   padding-top: 10rem;
@@ -61,13 +72,73 @@ hr.divider-left {
   margin-left:0
 }
 
+.hover-white:hover {
+  color: #ffffff;
+}
+
+
+
+.icon-fontsize-large {
+	font-size: 1.2rem;
+	width: 20px;
+	height: 20px;
+}
+
+.image-size-med {
+	max-height: 25em;
+	height: 70%;
+	width: auto;
+}
+
+.image-container-center{
+	width: 100%;
+	margin: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	color: #ccc;
+}
+
+.carousel-control-next-icon:after
+{
+  font-size: 2em;
+  color: #ccc;
+}
+
+.carousel-control-prev-icon:after {
+  font-size: 2em;
+  color: #ccc;
+}
+
+
+.carousel-indicators{
+	margin: auto;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    margin: 3px;
+    margin-bottom: 0px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    background-color: #BBBBBB;  
+}
+.carousel-indicators .active {
+    background-color: #333940;
+}
+
+
 
 /* my custom badges */
 
 
 .badge-home1{
 	color: #fff;
-  	background-color: #E84C54; /* RED */
+  	background-color: #FE5F55; /* RED */
 }
 
 .badge-home2{
