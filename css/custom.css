@@ -95,6 +95,21 @@ hr.divider-left {
 	margin: auto;
 }
 
+.container-center-h{
+	height: 100%;
+	margin: auto;
+}
+
+.mt-6{
+	margin-top: 10em;
+}
+
+b {
+  color: #595d60;
+}
+
+/* Carousel for project images */
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	color: #ccc;
@@ -125,7 +140,8 @@ hr.divider-left {
     text-indent: 0;
     cursor: pointer;
     border: none;
-    background-color: #BBBBBB;  
+    background-color: #BBBBBB; 
+    border-radius: 1px; 
 }
 .carousel-indicators .active {
     background-color: #333940;
