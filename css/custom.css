@@ -1,6 +1,101 @@
 /* additional classes */
 
 
+header.masthead {
+	background: #9e9abf;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	
+ 	font-family: 'M PLUS Rounded 1c', sans-serif;
+ 	font-family: 'Nunito', sans-serif;
+ 	font-family: 'Varela Round', sans-serif;
+ 	font-weight: 700;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#mainNav .navbar-brand {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 700;
+  color: #9e9abf;
+}
+
+
+#mainNav.navbar-scrolled .navbar-brand {
+	display: block;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#mainNav.navbar-scrolled .navbar-brand:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 992px){
+	#mainNav.navbar-scrolled {
+		background-color: #83BCFF; /*98C1D9  69D6F5 83BCFF*/
+	}
+	
+	#mainNav .navbar-nav .nav-item {
+    	color: rgba(255, 255, 255, 0.7);
+    }
+	
+	#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link,#mainNav.navbar-scrolled .navbar-nav .nav-item {
+   		color: rgba(255, 255, 255, 0.8);
+	}
+	
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #FFF !important;
+}
+
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: #FFF;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link, #mainNav .navbar-nav .nav-item {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+
+.landing-image{
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.project-capsule{
+  	/*box-shadow: 0 0.15rem 5.75rem 0 rgba(58, 59, 69, 0.15);*/
+  	border: 0px solid #e3e6f0;
+    border-radius: 0.35rem;
+    background: #fff;
+}
+
+.container{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.page-section{
+	background: rgba(58, 59, 69, 0.15)
+}
+
+.arrow-link{
+	color: #fff;
+}
+
+.arrow-link:hover{
+	color: #fff;
+}
+
+
+
 
 
 /* required because of some bug with setting icons white */
@@ -100,6 +195,11 @@ hr.divider-left {
 	margin: auto;
 }
 
+
+.mt-7{
+	margin-top: 8em;
+}
+
 .mt-6{
 	margin-top: 10em;
 }
@@ -110,9 +210,21 @@ b {
 
 /* Carousel for project images */
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-	color: #ccc;
+.carousel-control {
+}
+
+.carousel-control-container{
+	
+	position: absolute;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    
+     
+    
 }
 
 .carousel-control-next-icon:after
@@ -129,25 +241,44 @@ b {
 
 .carousel-indicators{
 	margin: auto;
+	bottom: 9px;
+	pointer-events: none;
 }
 
 .carousel-indicators li {
     display: inline-block;
-    width: 30px;
-    height: 3px;
+    width: 5px;
+    height: 5px;
     margin: 3px;
     margin-bottom: 0px;
     text-indent: 0;
     cursor: pointer;
     border: none;
-    background-color: #BBBBBB; 
-    border-radius: 1px; 
+    background-color: #EEEEEE; 
+    border-radius: 5px; 
+    margin-top: 10px;
 }
 .carousel-indicators .active {
-    background-color: #333940;
+    background-color: #fff;
 }
 
 
+.round-edges-right{
+	border-radius: 0px 5px 5px 0px;
+}
+
+.round-edges-left{
+	border-radius: 5px 0px 0px 5px;
+}
+
+.parent-centerh { padding: 2% 0; }
+.child-centerh  { padding: 4% 0;}
+
+
+.footer{
+	background: rgba(58, 59, 69, 0.15);
+	color: #888;
+}
 
 /* my custom badges */
 
@@ -176,6 +307,18 @@ b {
 	color: #fff;
   	background-color: #F79D84; /* PEACH */
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
