@@ -64,6 +64,10 @@ body{
   font-size: 0.9rem;
 }
 
+.nav-projects{
+	color: rgba(255, 255, 255, 0.75);
+}
+
 
 .landing-image{
 	max-height: 300px;
@@ -308,9 +312,14 @@ b {
   	background-color: #F79D84; /* PEACH */
 }
 
+.badge-home6{
+	color: #fff;
+  	background-color: #AA6373; /* MAROON */
+}
 
 
 
+/* OTHER COLORS: AA6373 ECCBD9 */
 
 
 
