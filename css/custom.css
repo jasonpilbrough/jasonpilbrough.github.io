@@ -2,7 +2,7 @@
 
 
 header.masthead {
-	background: #9e9abf;
+	background: #6C9AD1; /*9e9abf 6C9AD1 83BCFF*/
 }
 
 
@@ -21,7 +21,7 @@ body{
 #mainNav .navbar-brand {
   font-family: 'Varela Round', sans-serif;
   font-weight: 700;
-  color: #9e9abf;
+  color: #6C9AD1;
 }
 
 
@@ -289,17 +289,17 @@ b {
 
 .badge-home1{
 	color: #fff;
-  	background-color: #FE5F55; /* RED */
+  	background-color: #FE7C73; /* RED -> alts: FE5F55 FE7C73*/
 }
 
 .badge-home2{
 	color: #fff;
-  	background-color: #49A876; /* GREEN */
+  	background-color: #94C595; /* GREEN -> alts: 49A876 94C595*/
 }
 
 .badge-home3{
 	color: #fff;
-  	background-color: #3489B0; /* BLUE */
+  	background-color: #6BA9C5; /* BLUE -> alts: 3489B0 6BA9C5*/
 }
 
 .badge-home4{
@@ -314,12 +314,17 @@ b {
 
 .badge-home6{
 	color: #fff;
-  	background-color: #AA6373; /* MAROON */
+  	background-color: #B97F8C; /* MAROON alts: AA6373 B97F8C*/
+}
+
+.badge-home7{
+	color: #fff;
+  	background-color: #AA98BB; /* PURPLE 73648A 9882AC AA98BB*/
 }
 
 
 
-/* OTHER COLORS: AA6373 ECCBD9 */
+/* OTHER COLORS: ECCBD9 9FB8AD */
 
 
 
