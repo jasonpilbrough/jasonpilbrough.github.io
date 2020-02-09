@@ -1,11 +1,6 @@
 /* additional classes */
 
 
-header.masthead {
-	background: #6C9AD1; /*9e9abf 6C9AD1 83BCFF*/
-}
-
-
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 	
  	font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -18,23 +13,67 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+b {
+  color: #595d60;
+}
+
+
+
+/* LANDING PAGE */
+
+header.masthead {
+	background: #6C9AD1; /*9e9abf 6C9AD1 83BCFF*/
+}
+
+
+.landing-image{
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.landing-link{
+	color: #fff;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.landing-link:hover{
+	color: #fff;
+}
+
+
 #mainNav .navbar-brand {
   font-family: 'Varela Round', sans-serif;
   font-weight: 700;
   color: #6C9AD1;
+  cursor: default;
+}
+
+#mainNav .navbar-brand:hover {
+  color: #6C9AD1;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #FFF !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link, #mainNav .navbar-nav .nav-item {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 
 #mainNav.navbar-scrolled .navbar-brand {
 	display: block;
     color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
 }
 
 #mainNav.navbar-scrolled .navbar-brand:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-@media (min-width: 992px){
+
 	#mainNav.navbar-scrolled {
 		background-color: #83BCFF; /*98C1D9  69D6F5 83BCFF*/
 	}
@@ -47,114 +86,59 @@ body{
    		color: rgba(255, 255, 255, 0.8);
 	}
 	
-}
 
 
-#mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #FFF !important;
-}
 
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #FFF;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link, #mainNav .navbar-nav .nav-item {
-  font-family: 'Varela Round', sans-serif;
-  font-weight: 700;
-  font-size: 0.9rem;
+
+@media (max-width: 577px){
+	.navbar-expand-lg .navbar-nav {
+		flex-direction: column;
+	}
+
+	#mainNav .navbar-nav .nav-item  {
+		margin-left: auto;
+	
+	}
 }
 
-.nav-projects{
-	color: rgba(255, 255, 255, 0.75);
+
+
+@media (max-width: 991px){
+	#mainNav.navbar {
+		
+	}	
 }
 
 
-.landing-image{
-	max-height: 300px;
-	max-width: 300px;
-}
 
-.project-capsule{
-  	/*box-shadow: 0 0.15rem 5.75rem 0 rgba(58, 59, 69, 0.15);*/
-  	border: 0px solid #e3e6f0;
-    border-radius: 0.35rem;
-    background: #fff;
-}
+
+/* PROJECT SECTION */
 
 .container{
 	padding-left:0px;
 	padding-right:0px;
 }
 
+.mt-7{
+	margin-top: 8em;
+}
+
+.mt-responsive{
+	margin-top: 4em;
+}
+	
+@media (min-width: 992px){
+	.mt-responsive{
+		margin-top: 10em;
+	}
+}
+
 .page-section{
 	background: rgba(58, 59, 69, 0.15)
-}
-
-.arrow-link{
-	color: #fff;
-}
-
-.arrow-link:hover{
-	color: #fff;
-}
-
-
-
-
-
-/* required because of some bug with setting icons white */
-.my-text-white {
-  color: #ffffff !important;
-}
-
-.my-text-grey {
-  color: #606060 !important;
-}
-
-.my-text-primary {
-  color: #4990AA !important;
-}
-    
-
-header.masthead-project {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
-  /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 68, 0.8) 100%), url("../img/bg-masthead.jpg");*/
-  background: linear-gradient(to bottom, rgba(66, 77, 92, 0.5) 0%, rgba(66, 77, 92, 0.5) 100%), url("../img/envirologger_project/envirologger_bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-header.masthead-project h1 {
-  font-size: 2.25rem;
-}
-
-@media (min-width: 992px) {
-  header.masthead-project {
-    height: 100vh;
-    min-height: 40rem;
-    padding-top: 72px;
-    padding-bottom: 0;
-  }
-  header.masthead-project p {
-    font-size: 1.15rem;
-  }
-  header.masthead-project h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  header.masthead-project h1 {
-    font-size: 3.5rem;
-  }
-}
-
-
-.bg-off-white{
- 	background-color: #FAF8F5
 }
 
 .page-section-first {
@@ -165,16 +149,41 @@ header.masthead-project h1 {
 	padding: 3rem 0rem 4rem 0rem;
 }
 
-hr.divider-left {
-  border-width: 0.1rem;
-  border-color: #4990aa;
-  margin-left:0
+.nav-projects{
+	color: rgba(255, 255, 255, 0.75);
 }
 
-.hover-white:hover {
-  color: #ffffff;
+
+.project-capsule{
+  	/*box-shadow: 0 0.15rem 5.75rem 0 rgba(58, 59, 69, 0.15);*/
+  	border: 0px solid #e3e6f0;
+    border-radius: 0.35rem;
+    background: #fff;
 }
 
+.round-edges-right, .round-edges-left{
+		border-radius: 0px 0px 5px 5px;
+}
+
+
+@media (min-width: 992px) {
+  	.round-edges-right{
+		border-radius: 0px 5px 5px 0px;
+	}
+
+	.round-edges-left{
+		border-radius: 5px 0px 0px 5px;
+	}
+}
+
+
+
+.parent-centerh { padding: 2% 0; }
+.child-centerh  { padding: 4% 0;}
+
+.my-text-grey {
+  color: #606060 !important;
+}
 
 
 .icon-fontsize-large {
@@ -183,51 +192,21 @@ hr.divider-left {
 	height: 20px;
 }
 
-.image-size-med {
-	max-height: 25em;
-	height: 70%;
-	width: auto;
-}
-
-.image-container-center{
-	width: 100%;
-	margin: auto;
-}
-
-.container-center-h{
-	height: 100%;
-	margin: auto;
-}
 
 
-.mt-7{
-	margin-top: 8em;
-}
 
-.mt-6{
-	margin-top: 10em;
-}
 
-b {
-  color: #595d60;
-}
-
-/* Carousel for project images */
-
-.carousel-control {
-}
+/* CAROUSEL */
 
 .carousel-control-container{
-	
+
 	position: absolute;
     right: 0;
     bottom: 0px;
     left: 0;
     z-index: 15;
     display: flex;
-    justify-content: center;
-    
-     
+    justify-content: center;   
     
 }
 
@@ -266,26 +245,25 @@ b {
     background-color: #fff;
 }
 
-
-.round-edges-right{
-	border-radius: 0px 5px 5px 0px;
+.arrow-link{
+	color: #fff;
 }
 
-.round-edges-left{
-	border-radius: 5px 0px 0px 5px;
+.arrow-link:hover{
+	color: #fff;
 }
 
-.parent-centerh { padding: 2% 0; }
-.child-centerh  { padding: 4% 0;}
 
+/* FOOTER */
 
 .footer{
 	background: rgba(58, 59, 69, 0.15);
-	color: #888;
+	color: #bbb;
 }
 
-/* my custom badges */
 
+
+/* BADGES */
 
 .badge-home1{
 	color: #fff;
@@ -323,7 +301,6 @@ b {
 }
 
 
-
 /* OTHER COLORS: ECCBD9 9FB8AD */
 
 
@@ -332,77 +309,68 @@ b {
 
 
 
+/* ENVIROLOGGER */
 
-
-
-
-.badge-custom1 {
-  color: #fff;
-  background-color: #4990AA;
+header.masthead-project {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  /*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 68, 0.8) 100%), url("../img/bg-masthead.jpg");*/
+  background: linear-gradient(to bottom, rgba(66, 77, 92, 0.5) 0%, rgba(66, 77, 92, 0.5) 100%), url("../img/envirologger_project/envirologger_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
-.badge-custom2 {
-  color: #fff;
-  background-color: #987284;
+header.masthead-project h1 {
+  font-size: 2.25rem;
 }
 
-.badge-custom3 {
-  color: #fff;
-  background-color: #D0D6B5;
+@media (min-width: 992px) {
+  header.masthead-project {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.masthead-project p {
+    font-size: 1.15rem;
+  }
+  header.masthead-project h1 {
+    font-size: 3rem;
+  }
 }
 
-.badge-custom4 {
-  color: #fff;
-  background-color: #F9B5AC;
-}
-
-.badge-custom5 {
-  color: #fff;
-  background-color: #EE7674;
-}
-
-.badge-custom6 {
-  color: #fff;
-  background-color: #B09E99;
-}
-
-.badge-custom7 {
-  color: #fff;
-  background-color: #2C5784;
-}
-
-.badge-custom8 {
-  color: #fff;
-  background-color: #F6AE2D;
-}
-
-.badge-custom9 {
-  color: #fff;
-  background-color: #32936F;
-}
-
-.badge-custom10 {
-  color: #fff;
-  background-color: #26A96C;
+@media (min-width: 1200px) {
+  header.masthead-project h1 {
+    font-size: 3.5rem;
+  }
 }
 
 
-
-.badge-custom11 { /* Illuminating emerald */
-  color: #fff;
-  background-color: #32936F;
+hr.divider-left {
+  border-width: 0.1rem;
+  border-color: #4990aa;
+  margin-left:0
 }
 
-.badge-custom12 { /* Green (crayola) */
-  color: #fff;
-  background-color: #26A96C;
-}
-
-.badge-custom13 { /* Slimmy green */
-  color: #fff;
-  background-color: #249E13;
+.hover-white:hover {
+  color: #ffffff;
 }
 
 
+.image-size-med {
+	max-height: 25em;
+	height: 70%;
+	width: auto;
+}
 
+.image-container-center{
+	width: 100%;
+	margin: auto;
+}
 
+.container-center-h{
+	height: 100%;
+	margin: auto;
+}

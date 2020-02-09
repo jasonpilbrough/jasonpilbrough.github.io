@@ -4121,7 +4121,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -4147,7 +4147,7 @@ input[type="button"].btn-block {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
-}
+
 
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container,
@@ -9632,7 +9632,7 @@ hr.light {
   color: #4990AA !important;
 }
 
-@media (min-width: 992px) {
+
   #mainNav {
     box-shadow: none;
     background-color: transparent;
@@ -9669,7 +9669,7 @@ hr.light {
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #4990AA;
   }
-}
+
 
 header.masthead {
   padding-top: 10rem;
