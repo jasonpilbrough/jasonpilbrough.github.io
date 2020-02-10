@@ -28,11 +28,22 @@
 
   // Collapse Navbar
   var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 150) {
-      $("#mainNav").addClass("navbar-scrolled");
-    } else {
-      $("#mainNav").removeClass("navbar-scrolled");
-    }
+  	if($( window ).width()> 992){
+  		if ($("#mainNav").offset().top > 150) {
+		  $("#mainNav").addClass("navbar-scrolled");
+		} else {
+		  $("#mainNav").removeClass("navbar-scrolled");
+		}
+  	
+  	}else{
+  		if ($("#mainNav").offset().top > 100) {
+		  $("#mainNav").addClass("navbar-scrolled");
+		} else {
+		  $("#mainNav").removeClass("navbar-scrolled");
+		}
+  	
+  	}
+    
   };
   // Collapse now if page is not at top
   navbarCollapse();

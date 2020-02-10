@@ -17,6 +17,10 @@ b {
   color: #595d60;
 }
 
+body {
+  overflow-x:hidden 
+}
+
 
 
 /* LANDING PAGE */
@@ -118,6 +122,14 @@ header.masthead {
 
 /* PROJECT SECTION */
 
+@media (max-width: 576px) {
+	.project-capsule {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+
 .container{
 	padding-left:0px;
 	padding-right:0px;
@@ -137,8 +149,20 @@ header.masthead {
 	}
 }
 
+.pt-responsive{
+	padding-top: 4em;
+}
+	
+@media (min-width: 992px){
+	.pt-responsive{
+		padding-top: 10em;
+	}
+}
+
+
 .page-section{
-	background: rgba(58, 59, 69, 0.15)
+	background: rgba(58, 59, 69, 0.15);
+	padding: 0;
 }
 
 .page-section-first {
