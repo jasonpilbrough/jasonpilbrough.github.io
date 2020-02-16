@@ -142,6 +142,7 @@ header.masthead {
 .mt-responsive{
 	margin-top: 4em;
 }
+
 	
 @media (min-width: 992px){
 	.mt-responsive{
@@ -156,6 +157,16 @@ header.masthead {
 @media (min-width: 992px){
 	.pt-responsive{
 		padding-top: 10em;
+	}
+}
+
+.p-responsive{
+	padding: 3rem;
+}
+
+@media (max-width: 576px){
+	.p-responsive{
+		padding: 2rem 1rem 1rem 1rem;
 	}
 }
 
@@ -204,6 +215,19 @@ header.masthead {
 
 .parent-centerh { padding: 2% 0; }
 .child-centerh  { padding: 4% 0;}
+
+
+.outer-div{
+  display: table;
+  height: 100%;
+}
+.inner-div{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
 
 .my-text-grey {
   color: #606060 !important;
